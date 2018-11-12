@@ -1,0 +1,19 @@
+
+body {
+  background: rgba(0, 0, 0, 0.8)
+}
+
+/* Use this selector to override bar styles on bar charts. Bars are also strokes so you have maximum freedom in styling them. */
+.ct-series-a .ct-bar {
+  /* Colour of your bars */
+  stroke: white;
+  /* The width of your bars */
+  stroke-width: 3px;
+}
+
+h3 {
+  color: white;
+  font-family: monospace;
+  text-transform: uppercase;
+  margin: 30px 0 0 50px;
+}
